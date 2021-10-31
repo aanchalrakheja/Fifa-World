@@ -10,9 +10,9 @@ https://fifaworld.netlify.app/
 ![image](https://user-images.githubusercontent.com/68388581/139592317-c5d5e3fe-b401-41ef-a276-49aecee1e836.png)
 
 ## Working of the Project
--- This project has been build using REACT
--- The homepage allows the user to filter the players by searching with respect to FOUR diiferent parameters like Name, Nationality, Club and Preferred Foot.
--- After filter the players, clicking on the name of ANY player redirects to it's respective profile page.
+- This project has been build using REACT
+- The homepage allows the user to filter the players by searching with respect to FOUR diiferent parameters like Name, Nationality, Club and Preferred Foot.
+- After filter the players, clicking on the name of ANY player redirects to it's respective profile page.
 
 ## Getting Strated with the Project
 ### CLONE THE FORKED PROJECT -
