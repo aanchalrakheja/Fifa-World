@@ -1,3 +1,10 @@
+# FIFA WORLD
+## Home Page
+![image](https://user-images.githubusercontent.com/68388581/139592060-fd4452ef-8286-4d71-807d-1b7d204b6c16.png)
+
+## Profile Page
+![image](https://user-images.githubusercontent.com/68388581/139592317-c5d5e3fe-b401-41ef-a276-49aecee1e836.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
