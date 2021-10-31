@@ -1,77 +1,61 @@
 # FIFA WORLD
+
+## Hosted Link
+https://fifaworld.netlify.app/
+
 ## Home Page
 ![image](https://user-images.githubusercontent.com/68388581/139592060-fd4452ef-8286-4d71-807d-1b7d204b6c16.png)
 
 ## Profile Page
 ![image](https://user-images.githubusercontent.com/68388581/139592317-c5d5e3fe-b401-41ef-a276-49aecee1e836.png)
 
-# Getting Started with Create React App
+## Working of the Project
+-- This project has been build using REACT
+-- The homepage allows the user to filter the players by searching with respect to FOUR diiferent parameters like Name, Nationality, Club and Preferred Foot.
+-- After filter the players, clicking on the name of ANY player redirects to it's respective profile page.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Getting Strated with the Project
+### CLONE THE FORKED PROJECT -
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+You have forked the project you want to contribute to your github account. To get this project on your development machine we use clone command of git.
 
-### `npm start`
+`$ git clone https://github.com/<your-account-username>/<your-forked-project>.git`
+Now you have the project on your local machine.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### ADD A REMOTE (UPSTREAM) TO ORIGINAL PROJECT REPOSITORY
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+Remote means the remote location of project on Github. By cloning, we have a remote called origin which points to your forked repository. Now we will add a remote to the original repository from where we had forked.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`$ cd <your-forked-project-folder>`
+`$ git remote add upstream https://github.com/<author-account-username>/<project>.git`
+You will see the benefits of adding remote later.
 
-### `npm run build`
+### FORK A PROJECT -
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+You can use github explore - https://github.com/explore to find a project that interests you and match your skills. Once you find your cool project to workon, you can make a copy of project to your account. This process is called forking a project to your Github account. On Upper right side of project page on Github, you can see -
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="center">  <img  src="https://i.imgur.com/P0n6f97.png">  </p>
 
-### `npm run eject`
+Click on fork to create a copy of project to your account. This creates a separate copy for you to workon.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### INSTALL THE DEPENDENCIES
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Now that the project is ready on your local PC, run the command
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+`$ npm install`
+in your terminal to install all the dependencies.
 
-## Learn More
+### RUN THE PROJECT
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+`$ npm run start` 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This command will help you run your project locally. 
+If the project doesn't start automatically, run http://localhost:3000 in your browser
