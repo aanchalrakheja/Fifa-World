@@ -1,0 +1,10 @@
+.profile-graph{
+    flex-basis:250px;
+}
+
+@media screen and (max-width:900px)
+{
+    .profile-graph{
+        margin-bottom:2rem;
+    }
+}

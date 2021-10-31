@@ -1,0 +1,39 @@
+.profile-card{
+    flex-basis:300px;
+    padding:0.5rem;
+}
+.upper-button{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 0.8rem;
+}
+.upper-button div{
+    padding:0.5rem 1rem;
+    background-color:rgb(0, 128, 0);
+    border-radius:10px;
+    color:white;
+}
+.lower-info div{
+    font-size:0.9rem;
+    font-weight: 590;
+    margin:0.3rem 0rem;
+}
+.lower-info div .info-data{
+    font-weight:900;
+    margin-left:3rem;
+}
+
+
+@media screen and (max-width:900px)
+{
+    .profile-card{
+    text-align:center;
+    }
+    .lower-info div{
+        font-size:1.1rem;
+    }
+    .lower-info div .info-data{
+        font-weight:700;
+    }
+}
